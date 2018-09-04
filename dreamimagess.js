@@ -31,7 +31,7 @@ $("#dreamland > #tool > svg > path").attr("stroke","black");
 {
 $("#dreamland > #tool > span").hide(100);
 $("#dreamland > #tool > svg > rect").css("display","none");
-$("#dreamland > #tool > svg > path").attr("stroke","white");
+$("#dreamland > #tool > svg > path").attr("stroke","black");
 });
 }
 $(this).css("cursor","pointer");
