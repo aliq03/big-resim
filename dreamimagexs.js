@@ -14,7 +14,7 @@ x=x+90;
 $("#dreamland > #dreamcontent > img").css("transform","rotate("+x+"deg)");
 }
 )
-$("#dreamland > #tool > svg").click(function(){
+$("#dreambackground").click(function(){
 $("#dreamland").hide(200);
 x=0;
 $("#dreamland > #dreamcontent > img").css("transform","rotate("+x+"deg)");
